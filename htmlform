@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trabalho</title>
+</head>
+<body>
+  <form>
+  
+<h4> Selecione uma fruta (select tag): <h4>
+  <select>
+   <option value="pera">Pêra</option>
+   <option value="uva">Uva</option>
+   <option value="maca">Maçã</option>
+   <option value="saladamista">Salada Mista</option>
+  </select>
+
+<p> </p>
+<p> </p>  
+
+ <label for= "img"> Escolha uma imagem (file tag/input): </label>
+  	<p> </p>
+  	<input type="file"  id="img" name="img" accept="image/png, image/jpeg">
+<p> </p>
+  <h4> Selecione suas qualidades (checkbox/input): <h4> 
+   <input type="checkbox" name="linda" value="linda"> Eu sou lindo(a)<br>
+   <input type="checkbox" name="cheirosa" value="Cheirosa"> Eu sou cheiroso(a)<br>
+   <input type="checkbox" name="inteligente" value="Inteligente" checked>  Eu sou inteligente<br>
+   <input type="checkbox" name="carinhosa" value="Carinhosa">  Eu sou carinhosa(a)<br>
+   <input type="checkbox" name="topzeira" value="Topzeira">  Eu sou topzeira(a)<br>
+   <input type="submit" value="Enviar">
+  
+  <p> </p>
+  <h4> Selecione sua posição política (radiobox/input): <h4> 
+  <form action="">
+    <input type="radio" name="posicao" value="esquerda">Esquerda<br>
+    <input type="radio" name="posicao" value="direita">Direita<br>
+    <input type="radio" name="posicao" value="centro">Centro<br>
+    <input type="radio" name="posicao" value="nada">Prefiro não responder
+
+<p> </p>
+  <h4>Digite um comentário sobre o IFF (textarea/input): <h4> 
+   <textarea> Digite aqui. </textarea>
+   <input type="submit" value="Enviar">
+  
+  </form>
